@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Train Ticket Booking - Login</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: C:\Users\Benkili Sekhar\OneDrive\Web area\tlb.webp;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      width: 340px;
+      margin: 80px auto;
+      padding: 30px 25px 20px 25px;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.13);
+    }
+    h2 {
+      text-align: center;
+      color: #1976d2;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+    label {
+      margin: 12px 0 4px 0;
+    }
+    input[type="text"],
+    input[type="password"] {
+      padding: 8px;
+      margin-bottom: 10px;
+      border: 1px solid #90caf9;
+      border-radius: 4px;
+      font-size: 15px;
+    }
+    .login-link {
+      background: #1976d2;
+      color: #fff;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 10px;
+      text-align: center;
+      text-decoration: none;
+      display: block;
+      transition: background 0.2s;
+    }
+    .login-link:hover {
+      background: #0d47a1;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Login</h2>
+    <form>
+      <label for="username">Username:</label>
+      <input type="text" id="username" required>
+      <label for="password">Password:</label>
+      <input type="password" id="password" required>
+      <!-- No JS: use a styled link to booking.html -->
+      <a href="booking.html" class="login-link">Login</a>
+    </form>
+  </div>
+</body>
+</html>
